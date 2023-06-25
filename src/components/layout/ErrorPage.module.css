@@ -1,0 +1,16 @@
+.errorPage {
+   align-items: center;
+   background-color: rgba(0, 0, 0, 0.507);
+   color: #00e1ff;
+   display: flex;
+   font-size: 25px;
+   justify-content: center;
+   height: 20vh;
+   text-align: center;
+}
+
+@media (min-width: 1024px) {
+   .errorPage{
+      font-size: 30px;
+   }
+}

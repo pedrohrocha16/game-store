@@ -15,12 +15,6 @@ body {
    justify-content: center;
    text-align: center;
 }
-.title {
-   color: #00ceff;
-   font-size: 25px;
-   font-weight: 900;
-   text-shadow: -3px -1px 0px #0058f9;
-}
 .lista_games {
    align-items: center;
    background-color: #60ceff4a;

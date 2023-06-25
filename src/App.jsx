@@ -37,7 +37,6 @@ function App() {
         onChange={(e) => setSearch(e.target.value)}
         />
         {!removeLoading && <Loader />}
-        <h2 className="title">Lista de games:</h2>
           <ul className='lista_games'>
             {jogos.map((game) => (
               <div key={game.id}>
