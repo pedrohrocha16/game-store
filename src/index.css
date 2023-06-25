@@ -1,0 +1,69 @@
+html, body, #root, .App {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+body {
+   align-items: center;
+   background: url("../src/assets/bg.jpg");
+   background-position: center;
+   background-size: cover;
+   color: rgb(255, 255, 255);
+   display: flex;
+   font-family: 'Open Sans', sans-serif;
+   justify-content: center;
+   text-align: center;
+}
+.lista_games {
+   align-items: center;
+   background-color: rgb(80 83 87 / 49%);
+   border: 1px solid black;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 0;
+   width: 80vw;
+}
+.lista_games_li {
+   background: white;
+   border: 1px solid black;
+   border-radius: 3px;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   height: 250px;
+   margin-bottom: 1rem;
+   margin-top: 1rem;
+   width: 250px;
+}
+.lista_games_li img {
+   width: 250px;
+}
+.lista_games_li h3 {
+   border-top: 1px dashed black;
+   padding-top: 1.5rem;
+}
+
+@media (min-width: 576px) {
+   .lista_games {
+      display: grid;
+      justify-content: space-evenly;
+      grid-template-columns: 250px 250px;
+     }
+}
+
+@media (min-width: 768px) { 
+  .lista_games {
+   justify-content: center;
+   display: grid;
+   justify-content: space-evenly;
+  }
+}
+@media (min-width: 1024px) { 
+   .lista_games {
+    grid-template-columns: 250px 250px 250px;
+   }
+ }
+ 
