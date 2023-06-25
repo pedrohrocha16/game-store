@@ -1,6 +1,6 @@
 .navbar {
    align-items: center;
-   background: #000000c2;
+   background: #000000ab;
    display: flex;
    justify-content: space-evenly;
    height: 110px;
@@ -12,17 +12,33 @@
 }
 .navbar h2 {
    color: #00ceff;
+   font-size: 30px;
    font-weight: 900;
+   text-shadow: -4px 0px 14px #004fff;
 }
 .navbar input {
-   background-color: lightgray;
-   border: 4px solid #00b8b8;
+   background-color: rgba(12, 0, 0, 0);
+   border: 3px solid #00ccff;
    border-radius: 10px;
+   color: rgb(255, 255, 255);
    font-weight: 700;
    height: 25px;
    width: 100px;
 }
 
+
+@media (min-width: 768px) {
+   .navbar img {
+      width: 85px;
+   }
+   .navbar h2 {
+      font-size: 50px;
+   }
+   .navbar input {
+      height: 25px;
+      width: 150px;
+   }
+}
 @media (min-width: 1024px) {
    .navbar input {
       width: 200px;
